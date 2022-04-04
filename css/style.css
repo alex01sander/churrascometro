@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    max-width: 800px;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(236, 136, 22);
+    text-align: center;
+    padding: 100px;
+    border-radius: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    background-color: orange;
+    border: none;
+    border-radius: 28px;
+    padding: 10px;
+    text-shadow:0px 1px 0px #000000;
+    font-size: 15px;
+}
+
+Button:hover {
+	background:linear-gradient(to bottom, #856602 5%, #fff679 100%);
+	background-color:#378de5;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    
+}
+
+.amigos{
+    width: 800px;
+}
+
+.logo  {
+   
+    width: 100px;
+   
+    text-align: center;
+}
+
+
+
+.conteudo{
+    margin:50px 50px  auto auto ;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+h2{
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+@media screen and (max-width: 700px){
+    .conteudo{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
+        justify-content: center;
+       
+    }
+    
+    .container{
+        max-width: 800px;
+        height: 300px;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 94px;
+        border-radius: 10%;
+        text-align: center;
+    }
+
+    h2 {
+        max-width: 370px;
+        text-align: center;
+        font-size: 20px;
+        
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .amigos {
+        width: 471px;
+    }
+
+    .content{
+        text-align: center;
+    }
+    
+    p{
+        max-width: 500px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    /*.conteudo{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
+        justify-content: center;
+       
+    }*/
+    
+    .container{
+        max-width: 800px;
+        height: 300px;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 64px;
+        border-radius: 10%;
+        text-align: center;
+    }
+
+    h2 {
+        max-width: 600px;
+        text-align: center;
+        font-size: 20px;
+        
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .amigos {
+        width: 600px;
+    }
+
+    .content{
+        text-align: center;
+    }
+    
+    p{
+        max-width: 600px;
+        text-align: center;
+    }
+}
